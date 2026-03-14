@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noryoku — Master Japanese for the JLPT</title>
+  <meta name="description" content="Noryoku is a comprehensive Japanese language learning app designed to help you prepare for the JLPT with vocabulary, kanji, grammar, reading, listening, and AI-powered conversation practice.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">能力 <span>Noryoku</span></a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#levels">Levels</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="#" class="btn btn-nav">Download</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-badge fade-in">Japanese Language Learning App</div>
+      <h1 class="fade-in delay-1">Master Japanese.<br>Ace the JLPT.</h1>
+      <p class="subtitle fade-in delay-2">The all-in-one study companion that takes you from your first hiragana to N1 fluency — with vocabulary, kanji, grammar, reading, listening, and AI-powered conversation practice.</p>
+      <div class="cta-buttons fade-in delay-3">
+        <a href="#" class="btn btn-primary">Download on the App Store</a>
+        <a href="#" class="btn btn-secondary">Get it on Google Play</a>
+      </div>
+      <div class="hero-kanji" aria-hidden="true">
+        <span class="floating-char char-1">漢</span>
+        <span class="floating-char char-2">語</span>
+        <span class="floating-char char-3">力</span>
+        <span class="floating-char char-4">読</span>
+        <span class="floating-char char-5">聴</span>
+        <span class="floating-char char-6">話</span>
+      </div>
+    </section>
+
+    <!-- Feature overview grid -->
+    <section id="features" class="features">
+      <p class="section-label scroll-reveal">Why Noryoku</p>
+      <h2 class="scroll-reveal">Everything you need in one app</h2>
+      <p class="section-subtitle scroll-reveal">Six integrated study modes work together so you build real, lasting Japanese ability.</p>
+      <div class="feature-grid">
+        <div class="feature-card scroll-reveal">
+          <div class="feature-icon">文</div>
+          <h3>Vocabulary</h3>
+          <p>Study words organized by JLPT level with example sentences, audio pronunciation, and furigana reading guides.</p>
+        </div>
+        <div class="feature-card scroll-reveal">
+          <div class="feature-icon">漢</div>
+          <h3>Kanji</h3>
+          <p>Learn characters with stroke counts, on'yomi and kun'yomi readings, meanings, and example words.</p>
+        </div>
+        <div class="feature-card scroll-reveal">
+          <div class="feature-icon">法</div>
+          <h3>Grammar</h3>
+          <p>Understand grammar points with clear explanations, structure breakdowns, examples, and interactive drills.</p>
+        </div>
+        <div class="feature-card scroll-reveal">
+          <div class="feature-icon">読</div>
+          <h3>Reading</h3>
+          <p>Practice comprehension with passages organized by difficulty, complete with questions to test understanding.</p>
+        </div>
+        <div class="feature-card scroll-reveal">
+          <div class="feature-icon">聴</div>
+          <h3>Listening</h3>
+          <p>Sharpen your ear with audio exercises and multiple-choice comprehension questions at every level.</p>
+        </div>
+        <div class="feature-card scroll-reveal">
+          <div class="feature-icon">話</div>
+          <h3>AI Chat</h3>
+          <p>Practice conversation with an AI partner that responds naturally and helps you build real-world fluency.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kanji deep dive -->
+    <section class="feature-spotlight">
+      <div class="spotlight-content scroll-reveal">
+        <p class="section-label">Kanji</p>
+        <h2>Conquer kanji with confidence</h2>
+        <p>Each kanji entry gives you everything you need: stroke count, both on'yomi and kun'yomi readings, core meanings, and example compound words. Watch characters come alive as you progress from basic N5 kanji to the 2,000+ characters needed for N1.</p>
+        <ul class="feature-list">
+          <li>On'yomi and kun'yomi readings</li>
+          <li>Stroke counts and radical breakdowns</li>
+          <li>Example words and compounds</li>
+          <li>Progressive difficulty from N5 to N1</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Start Learning Kanji</a>
+      </div>
+      <div class="spotlight-visual scroll-reveal">
+        <div class="mock-card mock-kanji">
+          <div class="mock-kanji-char">山</div>
+          <div class="mock-kanji-details">
+            <span>やま &middot; サン</span>
+            <span>Mountain</span>
+            <span class="mock-strokes">3 strokes</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reading deep dive -->
+    <section class="feature-spotlight reverse">
+      <div class="spotlight-content scroll-reveal">
+        <p class="section-label">Reading</p>
+        <h2>Read real Japanese at your level</h2>
+        <p>Dive into reading passages carefully calibrated to each JLPT level. Each passage comes with comprehension questions that mirror the actual exam format, so you build both reading speed and test-taking confidence at the same time.</p>
+        <ul class="feature-list">
+          <li>Passages organized by JLPT difficulty</li>
+          <li>Comprehension questions after each passage</li>
+          <li>Toggle furigana and English translations</li>
+          <li>Exam-style question formats</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Start Reading Practice</a>
+      </div>
+      <div class="spotlight-visual scroll-reveal">
+        <div class="mock-card mock-reading" id="reading-card">
+          <div class="reading-passage">
+            <span class="reading-word rw-1"><ruby>東京<rt>とうきょう</rt></ruby>の</span>
+            <span class="reading-word rw-2"><ruby>春<rt>はる</rt></ruby>は</span>
+            <span class="reading-word rw-3">とても</span>
+            <span class="reading-word rw-4"><ruby>美<rt>うつく</rt></ruby>しいです。</span>
+            <span class="reading-word rw-5"><ruby>桜<rt>さくら</rt></ruby>の</span>
+            <span class="reading-word rw-6"><ruby>花<rt>はな</rt></ruby>が</span>
+            <span class="reading-word rw-7"><ruby>咲<rt>さ</rt></ruby>くと、</span>
+            <span class="reading-word rw-8"><ruby>多<rt>おお</rt></ruby>くの</span>
+            <span class="reading-word rw-9"><ruby>人<rt>ひと</rt></ruby>が</span>
+            <span class="reading-word rw-10"><ruby>公園<rt>こうえん</rt></ruby>に</span>
+            <span class="reading-word rw-11"><ruby>行<rt>い</rt></ruby>きます。</span>
+          </div>
+          <div class="reading-translation rw-12">Spring in Tokyo is very beautiful. When the cherry blossoms bloom, many people go to the park.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Grammar deep dive -->
+    <section class="feature-spotlight">
+      <div class="spotlight-content scroll-reveal">
+        <p class="section-label">Grammar</p>
+        <h2>Grammar that actually makes sense</h2>
+        <p>Forget confusing textbook explanations. Every grammar point comes with a clear structure breakdown, plain-English explanation, multiple example sentences, and interactive drill questions so you can immediately put what you've learned into practice.</p>
+        <ul class="feature-list">
+          <li>Clear structure and formation rules</li>
+          <li>Plain-language explanations</li>
+          <li>Multiple example sentences per point</li>
+          <li>Interactive drill questions for practice</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Start Learning Grammar</a>
+      </div>
+      <div class="spotlight-visual scroll-reveal">
+        <div class="mock-card mock-grammar">
+          <div class="mock-grammar-pattern">〜てもいいですか</div>
+          <div class="mock-grammar-meaning">May I...? / Is it okay if...?</div>
+          <div class="mock-grammar-example">
+            <p>写真を撮ってもいいですか？</p>
+            <p class="mock-translation">May I take a photo?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vocabulary deep dive -->
+    <section class="feature-spotlight reverse">
+      <div class="spotlight-content scroll-reveal">
+        <p class="section-label">Vocabulary</p>
+        <h2>Build your word power, one level at a time</h2>
+        <p>Every word comes with example sentences showing real usage, native audio pronunciation, and furigana so you never get stuck on a reading. Words are organized into focused packs by JLPT level and topic, making it easy to study exactly what you need for your next exam — or your next trip to Japan.</p>
+        <ul class="feature-list">
+          <li>Audio pronunciation for every word</li>
+          <li>Example sentences with furigana toggle</li>
+          <li>Organized by JLPT level and topic packs</li>
+          <li>Part-of-speech tags for deeper understanding</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Start Learning Vocabulary</a>
+      </div>
+      <div class="spotlight-visual scroll-reveal">
+        <div class="mock-card mock-vocab">
+          <div class="vocab-header">
+            <div class="mock-tag">Verb &middot; N5</div>
+            <div class="mock-tag tag-jlpt">JLPT N5</div>
+          </div>
+          <div class="mock-word">食べる</div>
+          <div class="vocab-readings">
+            <div class="vocab-reading-row">
+              <span class="vocab-label">Reading</span>
+              <span class="vocab-value-jp">たべる</span>
+            </div>
+            <div class="vocab-reading-row">
+              <span class="vocab-label">Romaji</span>
+              <span class="vocab-value">taberu</span>
+            </div>
+            <div class="vocab-reading-row">
+              <span class="vocab-label">Meaning</span>
+              <span class="vocab-value">to eat</span>
+            </div>
+          </div>
+          <div class="vocab-example">
+            <p class="vocab-example-jp"><ruby>朝<rt>あさ</rt></ruby>ごはんを<ruby>食<rt>た</rt></ruby>べましたか？</p>
+            <p class="vocab-example-en">Did you eat breakfast?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Listening deep dive -->
+    <section class="feature-spotlight">
+      <div class="spotlight-content scroll-reveal">
+        <p class="section-label">Listening</p>
+        <h2>Train your ear for the real thing</h2>
+        <p>The JLPT listening section trips up even strong readers. Noryoku's listening exercises use natural-speed audio with multiple-choice comprehension questions at every level, so you walk into the test knowing exactly what to expect.</p>
+        <ul class="feature-list">
+          <li>Natural-speed audio exercises</li>
+          <li>Multiple-choice comprehension questions</li>
+          <li>Covers all JLPT listening formats</li>
+          <li>Replay and speed controls</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Start Listening Practice</a>
+      </div>
+      <div class="spotlight-visual scroll-reveal">
+        <div class="mock-card mock-listening">
+          <div class="mock-waveform">
+            <div class="wave-bar" style="height: 30%"></div>
+            <div class="wave-bar" style="height: 60%"></div>
+            <div class="wave-bar" style="height: 80%"></div>
+            <div class="wave-bar" style="height: 45%"></div>
+            <div class="wave-bar" style="height: 90%"></div>
+            <div class="wave-bar" style="height: 55%"></div>
+            <div class="wave-bar" style="height: 70%"></div>
+            <div class="wave-bar" style="height: 35%"></div>
+            <div class="wave-bar" style="height: 65%"></div>
+            <div class="wave-bar" style="height: 50%"></div>
+            <div class="wave-bar" style="height: 85%"></div>
+            <div class="wave-bar" style="height: 40%"></div>
+          </div>
+          <div class="mock-play-btn">&#9654;</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI Chat deep dive -->
+    <section class="feature-spotlight reverse">
+      <div class="spotlight-content scroll-reveal">
+        <p class="section-label">AI Conversation</p>
+        <h2>Practice speaking without the pressure</h2>
+        <p>Chat with an AI conversation partner that adapts to your level. Ask questions, practice daily conversation, or work through specific scenarios — all in a judgment-free space. Get natural responses that help you think in Japanese, not just translate from English.</p>
+        <ul class="feature-list">
+          <li>AI partner adapts to your JLPT level</li>
+          <li>Natural, context-aware responses</li>
+          <li>Practice any topic or scenario</li>
+          <li>Build confidence before real conversations</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Try AI Chat</a>
+      </div>
+      <div class="spotlight-visual scroll-reveal">
+        <div class="mock-card mock-chat">
+          <div class="chat-bubble incoming">こんにちは！今日は何を勉強しましょうか？</div>
+          <div class="chat-bubble outgoing">駅までの道を聞く練習がしたいです</div>
+          <div class="chat-bubble incoming">いいですね！じゃあ、私が道行く人の役をしますね。「すみません...」から始めてみてください！</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SRS Section -->
+    <section class="srs">
+      <div class="srs-inner scroll-reveal">
+        <p class="section-label">Spaced Repetition</p>
+        <h2>Smart review, powered by science</h2>
+        <p class="srs-description">Noryoku uses the SM-2 spaced repetition algorithm to show you what you need, exactly when you need it. Items you know well appear less often. Items you struggle with come back sooner. The result: you memorize more in less time.</p>
+        <div class="srs-stages">
+          <div class="srs-stage">
+            <div class="srs-dot new"></div>
+            <span>New</span>
+          </div>
+          <div class="srs-arrow">&rarr;</div>
+          <div class="srs-stage">
+            <div class="srs-dot learning"></div>
+            <span>Learning</span>
+          </div>
+          <div class="srs-arrow">&rarr;</div>
+          <div class="srs-stage">
+            <div class="srs-dot reviewing"></div>
+            <span>Reviewing</span>
+          </div>
+          <div class="srs-arrow">&rarr;</div>
+          <div class="srs-stage">
+            <div class="srs-dot mastered"></div>
+            <span>Mastered</span>
+          </div>
+        </div>
+        <p class="srs-sub">Set daily goals from 5 to 50 new items. Noryoku balances fresh material with due reviews so you're always making progress.</p>
+        <a href="#" class="btn btn-primary">Start Your Study Plan</a>
+      </div>
+    </section>
+
+    <!-- Levels -->
+    <section id="levels" class="levels">
+      <p class="section-label scroll-reveal">JLPT Levels</p>
+      <h2 class="scroll-reveal">From your first word to full fluency</h2>
+      <p class="section-subtitle scroll-reveal">Follow a clear path through all five JLPT proficiency levels. Unlock new challenges as you grow.</p>
+      <div class="levels-grid">
+        <div class="level-card scroll-reveal">
+          <span class="level-badge n5">N5</span>
+          <p class="level-label">Beginner</p>
+          <p class="level-stats">~80 kanji &middot; ~600 vocab</p>
+          <p class="level-desc">Basic greetings, numbers, and everyday expressions.</p>
+        </div>
+        <div class="level-card scroll-reveal">
+          <span class="level-badge n4">N4</span>
+          <p class="level-label">Elementary</p>
+          <p class="level-stats">~170 kanji &middot; ~1,200 vocab</p>
+          <p class="level-desc">Simple conversations and basic reading comprehension.</p>
+        </div>
+        <div class="level-card scroll-reveal">
+          <span class="level-badge n3">N3</span>
+          <p class="level-label">Intermediate</p>
+          <p class="level-stats">~370 kanji &middot; ~3,500 vocab</p>
+          <p class="level-desc">Everyday situations and general topics in natural speed.</p>
+        </div>
+        <div class="level-card scroll-reveal">
+          <span class="level-badge n2">N2</span>
+          <p class="level-label">Upper Intermediate</p>
+          <p class="level-stats">~1,000 kanji &middot; ~6,000 vocab</p>
+          <p class="level-desc">Newspapers, lectures, and complex real-world content.</p>
+        </div>
+        <div class="level-card scroll-reveal">
+          <span class="level-badge n1">N1</span>
+          <p class="level-label">Advanced</p>
+          <p class="level-stats">~2,000 kanji &middot; ~10,000 vocab</p>
+          <p class="level-desc">Full professional fluency and academic-level comprehension.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="bottom-cta">
+      <div class="cta-inner scroll-reveal">
+        <h2>Your journey to Japanese fluency starts here</h2>
+        <p>Join thousands of learners who are building real Japanese ability with Noryoku. Download free and start studying in minutes.</p>
+        <div class="cta-buttons">
+          <a href="#" class="btn btn-primary btn-large">Download on the App Store</a>
+          <a href="#" class="btn btn-secondary btn-large">Get it on Google Play</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-top">
+        <p class="footer-logo">能力 Noryoku</p>
+        <p class="footer-tagline">Master Japanese. Ace the JLPT.</p>
+      </div>
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="mailto:support@noryoku.app">Contact</a>
+      </div>
+      <p class="copyright">&copy; 2026 Noryoku. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Scroll-reveal animation
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+    document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
+
+    // Navbar background on scroll
+    const nav = document.querySelector('header');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Reading passage word-by-word animation
+    const readingCard = document.getElementById('reading-card');
+    if (readingCard) {
+      let readingAnimated = false;
+      const readingObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !readingAnimated) {
+            readingAnimated = true;
+            const words = readingCard.querySelectorAll('.reading-word');
+            words.forEach((word, i) => {
+              setTimeout(() => word.classList.add('visible'), i * 200);
+            });
+            const translation = readingCard.querySelector('.reading-translation');
+            setTimeout(() => translation.classList.add('visible'), words.length * 200 + 400);
+          }
+        });
+      }, { threshold: 0.4 });
+      readingObserver.observe(readingCard);
+    }
+  </script>
+</body>
+</html>
