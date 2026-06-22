@@ -1028,7 +1028,16 @@ footer {
 
   .subtitle { font-size: 1rem; }
 
+  nav { padding: 1rem 1.25rem; }
+
+  .logo { font-size: 1.15rem; }
+
   .nav-links { gap: 1rem; }
+
+  /* Hide section links on mobile; keep logo + Download CTA */
+  .nav-links a:not(.btn-nav) { display: none; }
+
+  .btn-nav { padding: 0.5rem 1rem; }
 
   .feature-grid { grid-template-columns: 1fr; }
 
